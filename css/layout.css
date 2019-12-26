@@ -1,0 +1,130 @@
+body,td,th {
+/*	font-family: Arial, Helvetica, sans-serif;*/
+	font-family: Arial, sans-serif;
+}
+body {
+	margin-left: 10%;
+	margin-top: 0px;
+	margin-right: 10%;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+}
+#paragraph
+	p {text-indent: 30px;}
+#header {
+	text-align: center;
+/*	height: 150px;*/
+	height: 70px;
+/*	background-color: #99CCFF;*/
+	background-color: #4D77AA;
+	padding: 5px;
+}
+#top_menu {
+	padding: 3px 3px 3px 3px;
+	margin-bottom: 2px;
+	border-top: 2px solid #000099;
+	border-bottom: 1px dotted #000099;
+	background-color: #3366CC;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000099;
+}
+#top_menu a {
+	color: #FFFFFF;
+	padding: 3px 6px 0px 6px;
+	margin-bottom: 3px;
+	text-decoration: none;
+}
+#top_menu a:hover {
+	border-bottom: 4px solid #000099;
+}
+
+/*#page {
+ width: 765px;
+ display: block;
+ position: relative;
+}*/
+.content {
+	display: block;
+	margin: 3px;
+	font-size: 14px;
+	color: #585858;
+	float: none;
+/*  absolute-position: top;*/
+	text-align: left;
+	border: 1px solid #E0E0E0;
+	padding: 10px;
+	width: 96%;
+	background-position: bottom right;
+	background-image: url('../img/freevo-watermark.png'); /*THIS MUST BE CHANGED ON PUBLISH */
+	background-repeat: no-repeat;
+}
+.side_panel_top {
+	width: 158px;
+	height: 4px;
+	margin: 3px 3px 0px 3px;
+	background-image: url('../img/menu_top.png');
+}
+.side_panel_menu {
+	text-align: left;
+	width: 150px;
+	margin: 0px 3px 0px 3px;
+	padding: 0px 4px 0px 4px;
+	background-image: url('../img/menu_fill.png');
+	font-size: 12px;
+}
+.side_panel_bottom {
+	width: 158px;
+	height: 4px;
+	margin: 0px 3px 3px 3px;
+	background-image: url('../testing/img/menu_bottom.png');
+}
+h1.content_heading {
+	font-size: 16px;
+	color: #000000;
+	margin: 0px 0px 5px 0px;
+	font-weight: bold;
+	font: #000000;
+	border-bottom: 1px dotted #CCCCCC;
+}
+h2.content_heading {
+	font-size: 14px;
+	color: #000000;
+	text-align: right;
+	margin: 0px;
+}
+h3.content_heading {
+	font-size: 14px;
+	color: #000000;
+	margin: 10px 0px 5px 0px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+h1.timestamp {
+	font-weight: normal;
+	color: #000000;
+	margin: 0px;
+	font-size: 12px;
+	text-align: right;
+}
+h1.author {
+	font-weight: bold;
+	margin: 4px 0px 0px 0px;
+	font-size: 12px;
+	text-align: right;
+}
+li.features {
+	padding-top: 3px;
+}
+ol.features {
+	font-size: 9px;
+}
+#components {
+	width: 100%;
+	height: 80px;
+	display: block;
+	float: left;
+}
+#components img {
+	padding: 0px 4px 0px 4px;
+}
